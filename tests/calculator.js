@@ -30,6 +30,6 @@ describe("Demo calculator tests", function () {
     // let result = element(by.cssContainingText(".ng-binding", "5"));
     expect(homepage.getResult("5")).toEqual("5");
     //homepage.verifyResult(5);
-    browser.sleep(2000);
+    browser.sleep(1000);
   });
 });
